@@ -63,3 +63,8 @@ body {
 .search-form {
   margin-bottom: 20px;
 }
+.open-source-code-link {
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+}
