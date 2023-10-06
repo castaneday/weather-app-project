@@ -27,6 +27,8 @@ body {
     rgb(255, 255, 255) 0%,
     rgb(234, 236, 255) 90%
   );
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .weather-app {
   border: 1px solid #dadde1;
@@ -67,4 +69,8 @@ body {
   text-align: left;
   cursor: pointer;
   text-decoration: none;
+}
+.container {
+  background-size: cover;
+  max-width: 600px;
 }
