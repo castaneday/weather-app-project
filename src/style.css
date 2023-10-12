@@ -28,7 +28,10 @@ body {
     rgb(234, 236, 255) 90%
   );
   background-size: cover;
-  background-repeat: no-repeat;
+
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
 }
 .weather-app {
   border: 1px solid #dadde1;
@@ -73,4 +76,5 @@ body {
 .container {
   background-size: cover;
   max-width: 600px;
+  display: block;
 }
